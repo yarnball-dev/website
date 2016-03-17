@@ -4,6 +4,10 @@ html, body {
   font-size: 4.5vw;
 }
 
+a {
+  text-decoration: initial;
+}
+
 @media (min-width: 425px) {
   html, body {
     font-size: 16px;
@@ -44,11 +48,11 @@ html, body {
   font-size: 4vw;
   max-width: 100%;
   text-align: center;
-  text-decoration: initial;
   color: #444;
 }
 .email:hover {
   color: #5555DA;
+  outline: none;
 }
 @media (min-width: 425px) {
   .email {
@@ -75,8 +79,10 @@ html, body {
   background-size: cover;
   opacity: 0.65;
 }
-.profile-link:hover {
+.profile-link:hover,
+.profile-link:focus {
   opacity: 1;
+  outline: none;
 }
 
 @media (min-width: 425px) {
@@ -123,45 +129,50 @@ html, body {
   align-items:     center;
   flex-wrap: wrap;
 }
+a.boxed:hover,
+a.boxed:focus {
+  background-color: #D8E3EA;
+  border-left: 5px solid orange;
+  margin-left: -5px;
+  outline: none;
+}
 
 @media (min-width: 425px) {
   .boxed {
-    margin-top:    5px;
-    margin-bottom: 5px;
+    margin-top:    15px;
+    margin-bottom: 15px;
     padding: 10px;
   }
 }
 
-.yarnball-link {
-  opacity: 0.65;
-}
-.yarnball-link:hover {
-  opacity: 1;
-}
 .yarnball-link img {
   max-width: 100%;
 }
 
 .library-link {
-  margin: 2vw;
-  margin-left:  3vw;
-  margin-right: 3vw;
+  padding: 2vw;
+  padding-left:  3vw;
+  padding-right: 3vw;
   max-width: 100%;
-  text-decoration: initial;
   font-weight: bold;
   color: #444;
   font-size: 10vw;
   opacity: 0.65;
 }
-.library-link:hover {
+.library-link:hover,
+.library-link:focus {
   opacity: 1;
+  background-color: #D8E3EA;
+  outline: none;
+  border-left: 5px solid orange;
+  margin-left: -5px;
 }
 
 @media (min-width: 425px) {
   .library-link {
-    margin: 5px;
-    margin-left:  10px;
-    margin-right: 10px;
+    padding: 5px;
+    padding-left:  10px;
+    padding-right: 10px;
     font-size: 23px;
   }
 }
@@ -177,15 +188,36 @@ html, body {
 
 .work-box {
   flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+a.aie-box {
+  background-color: #0a2a3b;
+}
+a.aie-box:hover,
+a.aie-box:focus {
+  background-color: #17435A;
+}
+a.aie-box .years {
+  color: #fff;
+}
+
+a.mediaware-box {
+  background-color: #01539C;
+}
+a.mediaware-box:hover,
+a.mediaware-box:focus {
+  background-color: #0E66B5;
+}
+a.mediaware-box .work-logo {
+  opacity: 1;
+}
+a.mediaware-box .years {
+  color: #fff;
 }
 
 .work-logo {
-  flex-grow: 1;
   max-width: 80%;
-  opacity: 0.65;
-}
-.work-logo:hover {
-  opacity: 1;
 }
 .work-logo img {
   max-width: 80%;
