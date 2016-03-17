@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,7 +59,7 @@
      id="layer1"
      transform="translate(-332.56853,-762.92249)">
     <g
-       style="display:inline;opacity:0.47600002"
+       style="display:inline;opacity:1"
        id="g4942"
        transform="matrix(0.58084325,0,0,0.58084325,332.72227,762.8465)">
       <g
@@ -72,7 +72,8 @@
            width="686.79785"
            y="57.586494"
            x="31.433683"
-           xlink:href="/Volumes/Users/dreid/Desktop/TwistedLogo.png" />
+           xlink:href="/Volumes/Users/dreid/Desktop/TwistedLogo.png"
+           style="" />
       </g>
       <g
          transform="matrix(0.08557624,0,0,0.08557624,-3.4192094,-4.8595137)"
@@ -86,10 +87,11 @@
       </g>
       <g
          transform="matrix(0.08557624,0,0,0.08557624,-3.4192094,-4.8595137)"
-         id="layer3-7" />
+         id="layer3-7"
+         style="" />
     </g>
     <g
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.29245567px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.47600002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.29245567px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="text4955">
       <path
          d="m 369.88302,768.63384 12.51435,0 0,1.68444 -5.25147,0 0,13.10884 -2.01141,0 0,-13.10884 -5.25147,0 0,-1.68444 z"
