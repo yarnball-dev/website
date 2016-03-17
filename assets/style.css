@@ -1,0 +1,180 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+  font-size: 4.5vw;
+}
+
+@media (min-width: 425px) {
+  html, body {
+    font-size: 16px;
+  }
+}
+
+.profile-card {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  max-width: 50%;
+}
+
+@media (min-width: 1024px) {
+  .profile-card {
+    display: block;
+    position: fixed;
+    left: 50%;
+    width: 160px;
+    margin-left: -380px;
+  }
+}
+
+.profile-picture {
+  display: block;
+  width:  100px;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-top:    5px;
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+
+.email {
+  display: block;
+  margin-top:    2vw;
+  margin-bottom: 2vw;
+  font-size: 4vw;
+  max-width: 100%;
+  text-align: center;
+  text-decoration: initial;
+}
+@media (min-width: 425px) {
+  .email {
+    margin-top:    5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+}
+
+.profile-links {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top:    5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.profile-link {
+  display: inline-block;
+  width:  10vw;
+  height: 10vw;
+  background-size: cover;
+}
+
+@media (min-width: 425px) {
+  .profile-link {
+    width:  30px;
+    height: 30px;
+  }
+}
+
+.github-link {
+  background-image: url(github-logo.svg);
+}
+.facebook-link {
+  background-image: url(facebook-logo.svg);
+}
+.stackoverflow-link {
+  background-image: url(stackoverflow-logo.svg);
+}
+
+.main-content {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  max-width: 100%;
+}
+
+.boxed-heading {
+  margin-top: 10vw;
+}
+@media (min-width: 425px) {
+  .boxed-heading {
+    margin-top: 35px;
+  }
+}
+
+.boxed {
+  background-color: #eff2f4;
+  margin-top:    1vw;
+  margin-bottom: 1vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:     center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 425px) {
+  .boxed {
+    margin-top:    5px;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+}
+
+.yarnball-link img {
+  max-width: 100%;
+}
+
+.library-link {
+  margin: 2vw;
+  margin-left:  3vw;
+  margin-right: 3vw;
+  max-width: 100%;
+  text-decoration: initial;
+  font-weight: bold;
+  color: #444;
+  font-size: 10vw;
+}
+
+@media (min-width: 425px) {
+  .library-link {
+    margin: 5px;
+    margin-left:  10px;
+    margin-right: 10px;
+    font-size: 23px;
+  }
+}
+
+.library-link img {
+  max-width: 100%;
+}
+@media (min-width: 425px) {
+  .library-link img {
+    max-width: 130px;
+  }
+}
+
+.work-box {
+  flex-wrap: nowrap;
+}
+
+.work-logo {
+  flex-grow: 1;
+  max-width: 80%;
+}
+.work-logo img {
+  max-width: 80%;
+}
+
+.years {
+  font-size: 4vw;
+  white-space: nowrap;
+}
+@media (min-width: 425px) {
+  .years {
+    font-size: 12px;
+  }
+}
