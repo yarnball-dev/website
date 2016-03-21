@@ -7,6 +7,9 @@ html, body {
 a {
   text-decoration: initial;
 }
+a:visited {
+  color: initial;
+}
 
 @media (min-width: 425px) {
   html, body {
@@ -76,19 +79,27 @@ a {
   display: inline-block;
   width:  10vw;
   height: 10vw;
-  background-size: cover;
-  opacity: 0.65;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 1.5vw;
+  vertical-align: top;
 }
 .profile-link:hover,
 .profile-link:focus {
-  opacity: 1;
+  border-bottom: 1.5vw solid orange;
+  padding-bottom: 0;
   outline: none;
 }
 
 @media (min-width: 425px) {
+  .profile-link:hover,
+  .profile-link:focus {
+    border-bottom: 4px solid orange;
+  }
   .profile-link {
     width:  30px;
     height: 30px;
+    padding-bottom: 4px;
   }
 }
 
@@ -157,11 +168,9 @@ a.boxed:focus {
   font-weight: bold;
   color: #444;
   font-size: 10vw;
-  opacity: 0.65;
 }
 .library-link:hover,
 .library-link:focus {
-  opacity: 1;
   background-color: #D8E3EA;
   outline: none;
   border-left: 5px solid orange;
@@ -208,9 +217,6 @@ a.mediaware-box {
 a.mediaware-box:hover,
 a.mediaware-box:focus {
   background-color: #0E66B5;
-}
-a.mediaware-box .work-logo {
-  opacity: 1;
 }
 a.mediaware-box .years {
   color: #fff;
