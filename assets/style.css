@@ -156,6 +156,10 @@ a.boxed:focus {
   }
 }
 
+.child-box {
+  display: block;
+}
+
 .yarnball-link img {
   max-width: 100%;
 }
@@ -200,15 +204,74 @@ a.boxed:focus {
   justify-content: space-between;
 }
 
-a.aie-box {
+/* AIE */
+.aie-container {
   background-color: #0a2a3b;
+  color: #fff;
+}
+a.aie-box {
+  background: transparent;
+  margin-bottom: 0;
+  color: #fff;
 }
 a.aie-box:hover,
 a.aie-box:focus {
   background-color: #17435A;
 }
-a.aie-box .years {
-  color: #fff;
+.aie-container .child-box {
+  border-top: 1px solid #8C8C8C;
+  padding-left:   5vw;
+  padding-right:  2.8vw;
+  padding-top:    0;
+  padding-bottom: 0.5vw;
+  font-size: 2.8vw;
+}
+@media (min-width: 425px) {
+  .aie-container .child-box {
+    padding-left:   34px;
+    padding-right:  11px;
+    padding-bottom: 2px;
+    font-size: 12px;
+  }
+}
+.certificate {
+  display: flex;
+  align-items: center;
+  margin-top:    2vw;
+  margin-bottom: 2vw;
+}
+@media (min-width: 425px) {
+  .certificate {
+    margin-top:    16px;
+    margin-bottom: 16px;
+  }
+}
+.certificate-icon {
+  display: inline-block;
+  background-image: url("certificate-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width:  4.5vw;
+  height: 4.5vw;
+  margin-right: 2.5vw;
+  margin-bottom: -0.5vw;
+}
+@media (min-width: 425px) {
+  .certificate-icon {
+    width:  18px;
+    height: 18px;
+    margin-right: 9px;
+    margin-bottom: -4px;
+  }
+}
+.certificate-year {
+  margin-left: auto;
+  font-size: 2.8vw;
+}
+@media (min-width: 425px) {
+  .certificate-year {
+    font-size: 11px;
+  }
 }
 
 a.mediaware-box {
