@@ -186,16 +186,17 @@ a.boxed:focus {
     padding: 5px;
     padding-left:  10px;
     padding-right: 10px;
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 
 .library-link img {
   max-width: 100%;
+  width: 24vw;
 }
 @media (min-width: 425px) {
   .library-link img {
-    max-width: 130px;
+    max-width: 100px;
   }
 }
 
@@ -237,13 +238,13 @@ a.aie-box:focus {
 .certificate {
   display: flex;
   align-items: center;
-  margin-top:    2vw;
-  margin-bottom: 2vw;
+  margin-top:    4vw;
+  margin-bottom: 4vw;
 }
 @media (min-width: 425px) {
   .certificate {
-    margin-top:    16px;
-    margin-bottom: 16px;
+    margin-top:    18px;
+    margin-bottom: 18px;
   }
 }
 .certificate-icon {
