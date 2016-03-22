@@ -66,13 +66,13 @@ a:visited {
 }
 
 .profile-links {
-  display: block;
+  display: flex;
   width: 400px;
   max-width: 100%;
   margin: 0 auto;
   margin-top:    5px;
   margin-bottom: 5px;
-  text-align: center;
+  justify-content: center;
 }
 
 .profile-link {
@@ -83,6 +83,8 @@ a:visited {
   background-repeat: no-repeat;
   padding-bottom: 1.5vw;
   vertical-align: top;
+  margin-left:  0.5vw;
+  margin-right: 0.5vw;
 }
 .profile-link:hover,
 .profile-link:focus {
@@ -100,6 +102,8 @@ a:visited {
     width:  30px;
     height: 30px;
     padding-bottom: 4px;
+    margin-left:  2px;
+    margin-right: 2px;
   }
 }
 
