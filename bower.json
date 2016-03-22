@@ -1,0 +1,17 @@
+{
+  "name": "website",
+  "homepage": "https://github.com/joshua-shone/website",
+  "authors": [
+    "Joshua Shone <josh.shone@gmail.com>"
+  ],
+  "description": "Personal website of Joshua Shone",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "fastclick": "~1.0.6"
+  }
+}
