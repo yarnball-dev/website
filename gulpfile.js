@@ -2,7 +2,7 @@ var gulp = require('gulp');
 
 var gulp_if = require('gulp-if');
 
-var htmlmin  = require('gulp-htmlmin');
+// var htmlmin  = require('gulp-htmlmin');
 var cssnano  = require('gulp-cssnano');
 var uglifyjs = require('gulp-uglify');
 var svgmin   = require('gulp-svgmin');
@@ -19,10 +19,10 @@ gulp.task('default', [
 
 gulp.task('html', function() {
   return gulp.src('index.html')
-    .pipe(htmlmin({
-      collapseWhitespace: true,
-      minifyJS: true,
-    }))
+//     .pipe(htmlmin({
+//       collapseWhitespace: true,
+//       minifyJS: true,
+//     }))
     .pipe(gulp.dest('dist/'));
 });
 

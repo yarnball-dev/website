@@ -104,12 +104,30 @@ h2 {
   font-weight: inherit;
 }
 
+.location {
+  float: right;
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+.map-pin {
+  background-image: url(map-pin.svg);
+  width:  2.2rem;
+  height: 2.2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.location .map-pin {
+  margin: 0 auto;
+  margin-bottom: 0.35rem;
+}
+
 .boxed {
   display: block;
   margin-top:    0.7rem;
   margin-bottom: 0.7rem;
   background-color: #eff2f4;
-/*   padding: 0.5rem; */
 }
 a.boxed:hover,
 a.boxed:focus {
