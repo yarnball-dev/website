@@ -84,9 +84,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="107.12702"
-     inkscape:cy="15.897823"
+     inkscape:zoom="11.2"
+     inkscape:cx="71.864563"
+     inkscape:cy="17.933702"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -117,23 +117,22 @@
      style="display:inline">
     <path
        style="fill:#6e0200;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 20.771262,39.136422 C 20.644993,37.747462 16.478113,-0.76460398 16.478113,-0.76460398 L -8.270624,-1.2696803 -3.5986685,42.419417 Z"
+       d="m 0,0 0,38 20.648438,0 C 20.315253,34.72108 16.709587,1.3775719 16.560547,0 L 0,0 Z"
        id="path4989"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       inkscape:connector-curvature="0" />
     <path
        style="fill:#a00800;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 20.803571,40.232143 c -0.535714,-1.875 -7.5,-46.6964288 -7.5,-46.6964288 l 69.732144,3.125 -21.696429,50.8928568 z"
+       d="m 14.316406,0 c 1.282336,8.2290257 4.736221,30.346055 6.070313,38 L 65.412109,38 81.611328,0 14.316406,0 Z"
        id="path4991"
        inkscape:connector-curvature="0" />
     <path
        style="fill:url(#linearGradient5009);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 63.660714,40.946429 18.303572,-43.0357148 37.410714,0 -23.928571,46.6071428 z"
+       d="M 81.076172,0 64.914062,38 98.792969,38 118.30273,0 81.076172,0 Z"
        id="path4993"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#d83001;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 97.946429,38.892857 C 98.125,38.357143 119.28571,-3.4285715 119.28571,-3.4285715 l 16.96429,0.7142857 0.625,43.1249998 z"
+       d="M 117.55078,0 C 114.73541,5.5605443 99.723943,35.219243 98.392578,38 L 135,38 135,0 117.55078,0 Z"
        id="path5011"
        inkscape:connector-curvature="0" />
   </g>
