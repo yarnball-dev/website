@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
   <head>
     <meta charset="utf-8">
     
@@ -8,11 +9,14 @@
     <meta name="description" content="Personal website and CV/resumê for Joshua Shone.">
     
     <link rel="icon" href="assets/favicon.png">
+    
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="assets/style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   </head>
+  
   <body>
+  
     <section class="profile-card">
       <img class="profile-picture" src="assets/profile-picture2.jpg">
       <div class="profile-links">
@@ -22,6 +26,7 @@
       </div>
       <a class="email" href="mailto:josh.shone@gmail.com">josh.shone@gmail.com</a>
     </section>
+    
     <section class="main-content">
       <p>
         Hi,
@@ -31,16 +36,18 @@
         living in Berlin and originally from Canberra,
         Australia.
       </p>
-      <p class="boxed-heading">
+      
+      <h2>
         I'm the creator of this:
-      </p>
+      </h2>
       <a class="boxed yarnball-link" href="https://yarnball.io/">
         <img src="assets/yarnball-logo.svg">
       </a>
-      <p class="boxed-heading">
+      
+      <h2>
         I've used these:
-      </p>
-      <div class="boxed">
+      </h2>
+      <div class="boxed logo-gallery">
         <a class="library-link" href="https://www.polymer-project.org">
           <img src="assets/polymer-logo.svg">
         </a>
@@ -76,56 +83,73 @@
         </a>
       </div>
       
-      <p class="boxed-heading">
+      <h2>
         I've studied here:
-      </p>
+      </h2>
       
-      <div class="box-container aie-container">
-        <a class="boxed work-box aie-box" href="http://www.aie.edu.au/">
-          <img class="work-logo" src="assets/aie-logo.svg">
-          <span class="years">2 years</span>
+      <div class="boxed aie-box">
+        <a class="box-header" href="http://www.aie.edu.au/">
+          <img src="assets/aie-logo.svg">
+          <span class="attribute">2 years</span>
         </a>
-        <div class="child-box">
-          <div class="child-box-item">
-            <span class="child-box-item-icon certificate-icon"></span>
+        <ul class="box-content">
+          <li>
+            <span class="list-item-icon certificate-icon"></span>
             <span>Adv Diploma of Professional Game Development</span>
-            <span class="certificate-year">2008</span>
-          </div>
-          <div class="child-box-item">
-            <span class="child-box-item-icon certificate-icon"></span>
+            <span class="attribute">2008</span>
+          </li>
+          <li>
+            <span class="list-item-icon certificate-icon"></span>
             <span>Cert IV in 3D Animation for Games and Film</span>
-            <span class="certificate-year">2007</span>
-          </div>
-        </div>
+            <span class="attribute">2007</span>
+          </li>
+        </ul>
       </div>
       
-      <p class="boxed-heading">
+      <h2>
         And worked here:
-      </p>
+      </h2>
       
-      <div class="box-container mediaware-container">
-        <a class="boxed work-box mediaware-box" href="http://www.mediaware.com.au">
-          <img class="work-logo" src="assets/mediaware-logo.svg">
-          <span class="years">3.5 years</span>
+      <div class="boxed mediaware-box">
+        <a class="box-header" href="http://www.mediaware.com.au">
+          <img src="assets/mediaware-logo.svg">
+          <span class="attribute">3.5 years</span>
         </a>
-        <div class="child-box">
-          <div class="child-box-item">
-            <span class="child-box-item-icon product-icon"></span>
+        <ul class="box-content">
+          <li>
+            <span class="list-item-icon product-icon"></span>
+            <span>Internal infrastructure - Web framework</span>
+            <span class="attribute">HTML5</span>
+          </li>
+          <li>
+            <span class="list-item-icon product-icon"></span>
             <span>Product development - InStream</span>
-          </div>
-          <div class="child-box-item">
-            <span class="child-box-item-icon product-icon"></span>
-            <span>Internal infrastructure - web framework</span>
-          </div>
-        </div>
+            <span class="attribute">C++</span>
+          </li>
+        </ul>
       </div>
       
-      <a class="boxed work-box" href="http://www.nch.com.au">
-        <img class="work-logo" src="assets/nch-logo.svg">
-        <span class="years">3.5 years</span>
-      </a>
+      <div class="boxed nch-box">
+        <a class="box-header" href="http://www.nch.com.au">
+          <img src="assets/nch-logo.svg">
+          <span class="attribute">3.5 years</span>
+        </a>
+        <ul class="box-content">
+          <li>
+            <span class="list-item-icon application-icon"></span>
+            <span>Application development - Photopad</span>
+            <span class="attribute">C++</span>
+          </li>
+          <li>
+            <span class="list-item-icon application-icon"></span>
+            <span>Application development - Crescendo</span>
+            <span class="attribute">C++</span>
+          </li>
+        </ul>
+      </div>
     </section>
   </body>
+  
   <script type='application/javascript' src='bower_components/fastclick/lib/fastclick.js'></script>
   <script>
     if ('addEventListener' in document) {
