@@ -219,6 +219,9 @@ ul.box-content {
   background-color: #0a2a3b;
   color: #fff;
 }
+.aie-box a {
+  color: #fff;
+}
 .aie-box a:hover,
 .aie-box a:focus {
   background-color: #17435A;
@@ -235,6 +238,9 @@ ul.box-content {
   background-color: #01539C;
   color: #fff;
 }
+.mediaware-box a {
+  color: #fff;
+}
 .mediaware-box a:hover,
 .mediaware-box a:focus {
   background-color: #0E66B5;
@@ -247,6 +253,9 @@ ul.box-content {
 }
 
 /* NCH */
+.nch-box a {
+  color: #444;
+}
 .application-icon {
   background-image: url("application-icon.svg");
 }
